@@ -23,7 +23,7 @@ const HeaderContainer = styled.div`
     backdrop-filter: blur(9px);
     background-color: #46444488;
     box-shadow: 0 10px 10px -3px #00000055;
-    z-index: 1000;
+    z-index: 10000;
 `;
 
 const HeaderWrapper = styled.div`

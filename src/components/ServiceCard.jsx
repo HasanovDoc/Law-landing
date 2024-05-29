@@ -30,16 +30,16 @@ const CardContainer = styled.div`
     transition: ease 0.5s;
     &:hover{
         opacity: 1;
-    box-shadow: #00000077 0px 0px 20px;
-        /* box-shadow: none; */
+        box-shadow: #00000077 0px 0px 20px;
         scale: 1.05;
     }
 `;
 
 const CardHeader = styled.div`
-    background-color: green;
+    background-color: #5a795a;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
+    padding: 5px 0px;
 `;
 const CardImg = styled.div`
     max-width: 250px;
@@ -52,6 +52,8 @@ const CardImg = styled.div`
     }
 `;
 const CardContent = styled.ul`
+    padding-top: 5px;
+    padding-bottom: 4px;
     max-width: 250px;
     height: 100%;
     margin: 0;

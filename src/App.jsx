@@ -1,4 +1,5 @@
 import './App.css';
+import { Employees } from './components/Employees';
 import { Header } from './components/Header';
 import { Main } from './components/Main';
 import styled from 'styled-components';
@@ -8,6 +9,7 @@ function App() {
         <div className="App">
             <Header/>
             <Main />
+            <Employees/>
             <Next></Next>
         </div>
     );

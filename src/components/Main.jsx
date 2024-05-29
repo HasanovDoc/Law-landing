@@ -9,15 +9,6 @@ export const Main = () => {
         <MainContainer>
             <MainWrapper>
                 <MainHeader>Наши услуги</MainHeader>
-                {/* <div>
-                    <p>Семейные споры (образец что входит в эту услугу и др. на фото )</p>
-                    <p>Наследственные споры</p>
-                    <p>Жилищные споры</p>
-                    <p>Споры по жкх</p>
-                    <p>Земельные споры</p>
-                    <p>Автоюрист</p>
-                    <p>Трудовые споры</p>
-                </div> */}
                 <ServiceContainer>
                     {serviceData.map((item)=>(
                         <ServiceCard name={item.serviceName} img={item.seviceImg} content={item.serviceContent}/>
@@ -30,6 +21,7 @@ export const Main = () => {
 
 const MainContainer = styled.div`
     margin-top: 10vh; 
+    position: relative;
     /* height: 90vh; */
     /* background-color: lightskyblue; */
     background-image: url(${backgroundService});
@@ -37,6 +29,16 @@ const MainContainer = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    &::before{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color:rgb(0, 0, 0, 0.2);
+    }
 `;
 
 const MainWrapper = styled.div`
@@ -44,7 +46,9 @@ const MainWrapper = styled.div`
 `;
 
 const MainHeader = styled.div`
-    /* background-color: lightblue; */
+    /* position: sticky;
+    left: 0;
+    background-color: lightblue; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,6 +59,7 @@ const MainHeader = styled.div`
 `;
 
 const ServiceContainer = styled.div`
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     width: 100%;
