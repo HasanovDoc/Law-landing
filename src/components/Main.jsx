@@ -6,7 +6,7 @@ import { ServiceCard } from "./ServiceCard";
 
 export const Main = () => {
     return(
-        <MainContainer>
+        <MainContainer id="Main">
             <MainWrapper>
                 <MainHeader>Наши услуги</MainHeader>
                 <ServiceContainer>
@@ -20,9 +20,8 @@ export const Main = () => {
 };
 
 const MainContainer = styled.div`
-    margin-top: 10vh; 
+    /* margin-top: 10vh;  */
     position: relative;
-    /* height: 90vh; */
     /* background-color: lightskyblue; */
     background-image: url(${backgroundService});
     background-position: center;
@@ -55,7 +54,8 @@ const MainHeader = styled.div`
     padding: 20px 0px;
     width: 100%;
     height: 5%;
-    font-size: 4rem;
+    font-size: 4rem;    
+    margin-top: 10vh;
 `;
 
 const ServiceContainer = styled.div`

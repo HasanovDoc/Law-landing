@@ -5,7 +5,7 @@ import { EmployeesData } from "../dats";
 
 export const Employees = () => {
     return (
-        <EmployeesContainer>
+        <EmployeesContainer id="Employees">
             <EmployeesWrapper>
                 <EmployeesHeader>Наши сотрудники</EmployeesHeader>
                 <EmployeesList>
@@ -27,7 +27,7 @@ export const Employees = () => {
 
 const EmployeesContainer = styled.div`
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-image: url(${background});
     background-position: center;
     background-repeat: no-repeat;
@@ -56,6 +56,7 @@ const EmployeesHeader = styled.div`
     align-items: center;
     justify-content: center;
     padding: 20px 0px;
+    margin-top: 10vh;
     width: 100%;
     height: 5%;
     font-size: 4rem;

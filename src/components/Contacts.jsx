@@ -7,9 +7,9 @@ export const Contacts = () => {
     
     const daysOfWeek = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
     return (
-        <ContactsContainer>
+        <ContactsContainer id='Contacts'>
             <ContactsWrapper>
-                <ContactsHeader>Контакты</ContactsHeader>
+                <ContactsHeader></ContactsHeader>
                 <ContactsContent>
                     <ContactsLeft>
                         <LeftHeader>Режим работы</LeftHeader>
@@ -42,7 +42,7 @@ export const Contacts = () => {
 
 const ContactsContainer = styled.div`
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-image: url(${backgroundContacts});
     background-position: center;
     background-repeat: no-repeat;
@@ -54,20 +54,22 @@ const ContactsWrapper = styled.div`
     padding: 5px 5vw;
 `;
 
-const ContactsContent = styled.div`
-  display: flex;
-  justify-content: space-between;
-`;
-
 const ContactsHeader = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 0px;
     width: 100%;
+    margin-top: 10vh;
     height: 5%;
     font-size: 4rem;
 `;
+
+const ContactsContent = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 
 const ContactsLeft = styled.div`
   width: 46%;
