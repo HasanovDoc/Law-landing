@@ -2,10 +2,11 @@ import styled from "styled-components";
 import { useState } from "react";
 
 export const EmployeeCard = ({name, experience, specialization, info, avatar}) => {
-    const [isHover, setIsHover] = useState(false);
+    const [isHover, setIsHover] = useState(true);
+    // setIsHover(true);
     const nameArr = name.split(' ');
     return (
-        <EmployeeSlideContainer onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)}>
+        <EmployeeSlideContainer>
             <CardWrapper>
                 <SlideContainer>
                     <SlideFront isHover={isHover}>

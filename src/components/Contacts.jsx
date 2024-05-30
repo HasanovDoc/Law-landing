@@ -28,9 +28,9 @@ export const Contacts = () => {
                         <RightHeader>Контакты</RightHeader>
                         <RightContent>
                             <ul>
-                                <li><span>Адрес: </span><a href=""> г. Ижевск, ул. Юристов, 100</a></li>
-                                <li><span>Телефон: </span> <a href="" type="tel">+7(3412)10-10-10</a>,<a href="" type="tel">7(909)100-10-10</a></li>
-                                <li><span>Эль. Почта: </span><a href="" type="email">pravo-kompas@mail.ru</a></li>
+                                <li><span>Адрес:&ensp;</span><span>г. Ижевск, ул. Юристов, 100</span></li>
+                                <li><span>Телефон:&ensp; </span> <a href="#" type="tel">+7(3412)10-10-10</a>,&ensp;<a href="#" type="tel">7(909)100-10-10</a></li>
+                                <li><span>E-mail:&ensp;</span><a href="#" type="email">pravo-kompas@mail.ru</a></li>
                             </ul>
                         </RightContent>
                     </ContactsRight>

@@ -1,69 +1,53 @@
+import styled from "styled-components";
+import BackgroundMain from '../assets/img/background_main.jpg'
+import contentIcon from '../assets/img/15Icon.png'
 
-import styled from "styled-components"
-import backgroundService from '../assets/img/background_service.jpg'
-import { serviceData } from "../dats";
-import { ServiceCard } from "./ServiceCard";
-
-export const Main = () => {
-    return(
+export const Main= () => {
+    return (
         <MainContainer id="Main">
             <MainWrapper>
-                <MainHeader>Наши услуги</MainHeader>
-                <ServiceContainer>
-                    {serviceData.map((item)=>(
-                        <ServiceCard name={item.serviceName} img={item.seviceImg} content={item.serviceContent}/>
-                    ))}
-                </ServiceContainer>
+                <MainContent>
+                    <ContentHeader></ContentHeader>
+                    Более <b>15 лет</b> оказываем юридические услуги
+                </MainContent>
             </MainWrapper>
         </MainContainer>
     )
-};
+}
 
 const MainContainer = styled.div`
-    /* margin-top: 10vh;  */
-    position: relative;
-    /* background-color: lightskyblue; */
-    background-image: url(${backgroundService});
+    background-image: url(${BackgroundMain});
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    &::before{
-        content: '';
-        display: block;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color:rgb(0, 0, 0, 0.2);
-    }
+    width: 100%;
+    height: 100vh;
 `;
 
 const MainWrapper = styled.div`
-    padding: 5px 5vw;        
+    padding: 5px 5vw;
+    padding-top: 10vh;
 `;
 
-const MainHeader = styled.div`
-    /* position: sticky;
-    left: 0;
-    background-color: lightblue; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0px;
-    width: 100%;
-    height: 5%;
-    font-size: 4rem;    
+const MainContent = styled.div`
+    box-sizing: border-box;
     margin-top: 10vh;
+    width: 40%;
+    height: 70vh;
+    background-color: #00000063;
+    backdrop-filter: blur(9px);
+    border-radius: 4px;
+    padding: 10vh 3vw;
+    font-size: 3.5rem;
+    box-shadow: #000000 0px 0px 10px;
 `;
 
-const ServiceContainer = styled.div`
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    flex-wrap: wrap;
-    gap: 50px;
+const ContentHeader = styled.div`
+    width: 100px;
+    height: 100px;
+    background-image: url(${contentIcon});
+    background-size: contain;
+    margin: 0 auto;
+    margin-bottom: 2vh;
 `;
