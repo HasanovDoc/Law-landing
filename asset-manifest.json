@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Law-landing/static/css/main.6dbe1f9f.css",
-    "main.js": "/Law-landing/static/js/main.91bd01cb.js",
+    "main.js": "/Law-landing/static/js/main.9e03c9ba.js",
     "static/js/453.2c2006b5.chunk.js": "/Law-landing/static/js/453.2c2006b5.chunk.js",
     "static/media/avatar_1.jpg": "/Law-landing/static/media/avatar_1.45cd5d5dcd8bfc2b125b.jpg",
     "static/media/background_employee_2.jpg": "/Law-landing/static/media/background_employee_2.b1f5fdad9a7b866859db.jpg",
@@ -20,11 +20,11 @@
     "static/media/avto.jpg": "/Law-landing/static/media/avto.31d1edb5fd8f70e1f59d.jpg",
     "index.html": "/Law-landing/index.html",
     "main.6dbe1f9f.css.map": "/Law-landing/static/css/main.6dbe1f9f.css.map",
-    "main.91bd01cb.js.map": "/Law-landing/static/js/main.91bd01cb.js.map",
+    "main.9e03c9ba.js.map": "/Law-landing/static/js/main.9e03c9ba.js.map",
     "453.2c2006b5.chunk.js.map": "/Law-landing/static/js/453.2c2006b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6dbe1f9f.css",
-    "static/js/main.91bd01cb.js"
+    "static/js/main.9e03c9ba.js"
   ]
 }
