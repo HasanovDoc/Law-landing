@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dbe1f9f.css",
-    "main.js": "/static/js/main.400ddca2.js",
-    "static/js/453.2c2006b5.chunk.js": "/static/js/453.2c2006b5.chunk.js",
-    "static/media/avatar_1.jpg": "/static/media/avatar_1.45cd5d5dcd8bfc2b125b.jpg",
-    "static/media/background_employee_2.jpg": "/static/media/background_employee_2.b1f5fdad9a7b866859db.jpg",
-    "static/media/background_contacts.jpg": "/static/media/background_contacts.65134e2690372d7cd22c.jpg",
-    "static/media/avatar_2.jpg": "/static/media/avatar_2.78f69dc0c2bf3d273b1d.jpg",
-    "static/media/background_service.jpg": "/static/media/background_service.c7434ff1d2bef7de94aa.jpg",
-    "static/media/avatar_4.jpg": "/static/media/avatar_4.45897e3554fe372ff933.jpg",
-    "static/media/avatar_3.jpg": "/static/media/avatar_3.5e22168d44ec7990354b.jpg",
-    "static/media/zemel.jpg": "/static/media/zemel.518d075f5146d3bac5c0.jpg",
-    "static/media/trud.jpg": "/static/media/trud.2f52e331a04d07d5fdc8.jpg",
-    "static/media/zhkh.jpg": "/static/media/zhkh.693b3242a17f3aed8b11.jpg",
-    "static/media/nasled.jpg": "/static/media/nasled.42afeb18ea1c3f6015dd.jpg",
-    "static/media/family.jpg": "/static/media/family.20fed8189b662b361e57.jpg",
-    "static/media/avto.jpg": "/static/media/avto.31d1edb5fd8f70e1f59d.jpg",
-    "index.html": "/index.html",
-    "main.6dbe1f9f.css.map": "/static/css/main.6dbe1f9f.css.map",
-    "main.400ddca2.js.map": "/static/js/main.400ddca2.js.map",
-    "453.2c2006b5.chunk.js.map": "/static/js/453.2c2006b5.chunk.js.map"
+    "main.css": "/Law-landing/static/css/main.6dbe1f9f.css",
+    "main.js": "/Law-landing/static/js/main.94230412.js",
+    "static/js/453.2c2006b5.chunk.js": "/Law-landing/static/js/453.2c2006b5.chunk.js",
+    "static/media/avatar_1.jpg": "/Law-landing/static/media/avatar_1.45cd5d5dcd8bfc2b125b.jpg",
+    "static/media/background_employee_2.jpg": "/Law-landing/static/media/background_employee_2.b1f5fdad9a7b866859db.jpg",
+    "static/media/background_contacts.jpg": "/Law-landing/static/media/background_contacts.65134e2690372d7cd22c.jpg",
+    "static/media/avatar_2.jpg": "/Law-landing/static/media/avatar_2.78f69dc0c2bf3d273b1d.jpg",
+    "static/media/background_service.jpg": "/Law-landing/static/media/background_service.c7434ff1d2bef7de94aa.jpg",
+    "static/media/avatar_4.jpg": "/Law-landing/static/media/avatar_4.45897e3554fe372ff933.jpg",
+    "static/media/avatar_3.jpg": "/Law-landing/static/media/avatar_3.5e22168d44ec7990354b.jpg",
+    "static/media/zemel.jpg": "/Law-landing/static/media/zemel.518d075f5146d3bac5c0.jpg",
+    "static/media/trud.jpg": "/Law-landing/static/media/trud.2f52e331a04d07d5fdc8.jpg",
+    "static/media/zhkh.jpg": "/Law-landing/static/media/zhkh.693b3242a17f3aed8b11.jpg",
+    "static/media/nasled.jpg": "/Law-landing/static/media/nasled.42afeb18ea1c3f6015dd.jpg",
+    "static/media/family.jpg": "/Law-landing/static/media/family.20fed8189b662b361e57.jpg",
+    "static/media/avto.jpg": "/Law-landing/static/media/avto.31d1edb5fd8f70e1f59d.jpg",
+    "index.html": "/Law-landing/index.html",
+    "main.6dbe1f9f.css.map": "/Law-landing/static/css/main.6dbe1f9f.css.map",
+    "main.94230412.js.map": "/Law-landing/static/js/main.94230412.js.map",
+    "453.2c2006b5.chunk.js.map": "/Law-landing/static/js/453.2c2006b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6dbe1f9f.css",
-    "static/js/main.400ddca2.js"
+    "static/js/main.94230412.js"
   ]
 }
