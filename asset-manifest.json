@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/Law-landing/static/css/main.6dbe1f9f.css",
-    "main.js": "/Law-landing/static/js/main.94230412.js",
+    "main.js": "/Law-landing/static/js/main.91bd01cb.js",
     "static/js/453.2c2006b5.chunk.js": "/Law-landing/static/js/453.2c2006b5.chunk.js",
     "static/media/avatar_1.jpg": "/Law-landing/static/media/avatar_1.45cd5d5dcd8bfc2b125b.jpg",
     "static/media/background_employee_2.jpg": "/Law-landing/static/media/background_employee_2.b1f5fdad9a7b866859db.jpg",
     "static/media/background_contacts.jpg": "/Law-landing/static/media/background_contacts.65134e2690372d7cd22c.jpg",
     "static/media/avatar_2.jpg": "/Law-landing/static/media/avatar_2.78f69dc0c2bf3d273b1d.jpg",
+    "static/media/background_main.jpg": "/Law-landing/static/media/background_main.1e0a6414c53dd298d6d0.jpg",
     "static/media/background_service.jpg": "/Law-landing/static/media/background_service.c7434ff1d2bef7de94aa.jpg",
     "static/media/avatar_4.jpg": "/Law-landing/static/media/avatar_4.45897e3554fe372ff933.jpg",
     "static/media/avatar_3.jpg": "/Law-landing/static/media/avatar_3.5e22168d44ec7990354b.jpg",
+    "static/media/15Icon.png": "/Law-landing/static/media/15Icon.db9afbca827e4421541c.png",
     "static/media/zemel.jpg": "/Law-landing/static/media/zemel.518d075f5146d3bac5c0.jpg",
     "static/media/trud.jpg": "/Law-landing/static/media/trud.2f52e331a04d07d5fdc8.jpg",
     "static/media/zhkh.jpg": "/Law-landing/static/media/zhkh.693b3242a17f3aed8b11.jpg",
@@ -18,11 +20,11 @@
     "static/media/avto.jpg": "/Law-landing/static/media/avto.31d1edb5fd8f70e1f59d.jpg",
     "index.html": "/Law-landing/index.html",
     "main.6dbe1f9f.css.map": "/Law-landing/static/css/main.6dbe1f9f.css.map",
-    "main.94230412.js.map": "/Law-landing/static/js/main.94230412.js.map",
+    "main.91bd01cb.js.map": "/Law-landing/static/js/main.91bd01cb.js.map",
     "453.2c2006b5.chunk.js.map": "/Law-landing/static/js/453.2c2006b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6dbe1f9f.css",
-    "static/js/main.94230412.js"
+    "static/js/main.91bd01cb.js"
   ]
 }
