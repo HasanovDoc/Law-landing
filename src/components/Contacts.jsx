@@ -16,9 +16,9 @@ export const Contacts = () => {
                         <LeftContent>
                             <ul>
                                 {daysOfWeek.map((day, index) => (
-                                    <li key={index} style={{ color: currentDay === index + 1 ? 'red' : 'black' }}>
+                                    <li key={index} style={{ color: currentDay === index + 1 ? 'white' : 'black' }}>
                                     <span>{day}</span>
-                                    <span>{index >= 5 ? 'Выходной' : '09:00 – 18:00'}</span>
+                                    <span style={{color: index >= 5 ? 'red' : 'inherit'}}>{index >= 5 ? 'Выходной' : '09:00 – 18:00'}</span>
                                     </li>
                                 ))}
                             </ul>
@@ -78,11 +78,13 @@ const ContactsLeft = styled.div`
   border-radius: 3px;
   background-color: #ffffff45;
   backdrop-filter: blur(10px);
+  box-shadow: #000000 0px 0px 10px;
 `;
 
 const LeftHeader = styled.div`
     font-size: 2rem;
     background-color: #ffffff2b;
+    box-shadow: #000000 0px 2px 5px;
     /* height: 5vh; */
 `;
 
@@ -116,11 +118,13 @@ const ContactsRight = styled.div`
   border-radius: 3px;
   background-color: #ffffff45;
   backdrop-filter: blur(10px);
+  box-shadow: #000000 0px 0px 10px;
 `;
 
 const RightHeader = styled.div`
     font-size: 2rem;
     background-color: #ffffff2b;
+    box-shadow: #000000 0px 2px 10px;
 `;
 
 const RightContent = styled.div`
