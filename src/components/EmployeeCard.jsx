@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import avatar from '../assets/img/avatar_1.jpg'
 import { useState } from "react";
 
 export const EmployeeCard = ({name, experience, specialization, info, avatar}) => {
