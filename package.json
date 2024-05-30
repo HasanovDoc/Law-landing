@@ -1,7 +1,7 @@
 {
     "name": "law-landing",
     "version": "0.1.0",
-    "homepage": "https://hasanovdoc.github.io/law-landing",
+    "homepage": "https://hasanovdoc.github.io/Law-landing",
     "private": true,
     "dependencies": {
         "@emotion/styled": "^11.11.5",
