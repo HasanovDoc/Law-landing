@@ -6,6 +6,7 @@ export const Main= () => {
     return (
         <MainContainer id="Main">
             <MainWrapper>
+                <MainHeader>Правовой компас</MainHeader>
                 <MainContent>
                     <ContentHeader></ContentHeader>
                     Более <b>15 лет</b> оказываем юридические услуги
@@ -30,9 +31,15 @@ const MainWrapper = styled.div`
     padding-top: 10vh;
 `;
 
+const MainHeader = styled.div`
+    font-size: 4rem;
+    margin-top: 3vh;
+    font-weight: bold;
+`;
+
 const MainContent = styled.div`
     box-sizing: border-box;
-    margin-top: 10vh;
+    margin-top: 4vh;
     width: 40%;
     height: 70vh;
     background-color: #00000063;
